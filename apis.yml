@@ -1,8 +1,27 @@
 aid: industrial-microbes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/industrial-microbes.png
 name: Industrial Microbes
-description: Industrial Microbes is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Industrial Microbes (iMicrobes) is a synthetic-biology company in Alameda,
+  California that engineers microorganisms to convert renewable, low-carbon feedstocks
+  such as ethanol and methane into commercial-grade industrial chemicals and bio-based
+  materials. Founded in 2014 (Y Combinator W15) by Liz Clarke, Derek Greenfield, and
+  Noah Helman, the company has produced 100% bio-based acrylic acid and targets net-zero
+  or negative-emission building-block chemicals for coatings, paints, carbon-fiber
+  precursors, biopolymers, and biodegradable plastics. This is a company profile in
+  the API Evangelist network; Industrial Microbes publishes no public developer API,
+  OpenAPI definition, SDKs, or developer portal, so the enrichment pipeline captured
+  only verified company identity and website link properties.
 url: https://raw.githubusercontent.com/api-evangelist/industrial-microbes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,38 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Synthetic Biology
+- Biotechnology
+- Green Chemicals
+- Biomanufacturing
+- Sustainability
+- Fermentation
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://www.imicrobes.com/
+- type: About
+  url: https://www.imicrobes.com/about
+- type: Blog
+  url: https://www.imicrobes.com/blog
+- type: Careers
+  url: https://www.imicrobes.com/careers
+- type: Contact
+  url: https://www.imicrobes.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
